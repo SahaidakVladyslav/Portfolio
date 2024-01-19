@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    
+  <link rel="stylesheet" href="/Portfolio/assets/main-e58a319a.css">
+</head>
+<body>
+    <header class="hat">
+        <div class="container hat__container">
+            <a href="./index.html" lang="en" class="logo hat__logo">
+                <span class="hat__logo--web">Web</span>Studio
+            </a>
+            <button class="menu__btn--open menu-toggle js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+                <svg width="24" height="16px">
+                    <use href="/Portfolio/assets/icons-207a2e32.svg#icon-menu_24px"></use>
+                </svg>
+            </button>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="menu__btn--close menu-toggle js-close-menu"><svg width="24" height="16px">
+                        <use href="/Portfolio/assets/icons-207a2e32.svg#icon-close">
+                        </use>
+                    </svg></button>
+                <nav class="browsing">
+                    <ul class="browsing__list list">
+                        <li class="browsing__item">
+                            <a class="browsing__link hat__link--label" href="./index.html">
+                                Studio
+                            </a>
+                        </li>
+                        <li class="browsing__item  link__current">
+                            <a class="browsing__link hat__link--label current" href="./portfolio.html">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="browsing__item">
+                            <a class="browsing__link hat__link--label" href="">
+                                Contacts
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="hat__list list">
+                    <li>
+                        <a class="hat__link hat__link--label hat__link--post" href="mailto:info@devstudio.com">
+                            <svg class="hat__link--icon" width="16" height="12">
+                                <use href="/Portfolio/assets/icons-207a2e32.svg#icon-envelope">
+                                </use>
+                            </svg>info@devstudio.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hat__link hat__link--label " href="tel:+380961111111">
+                            <svg class="hat__link--icon" width="10" height="16">
+                                <use href="/Portfolio/assets/icons-207a2e32.svg#icon-smartphone">
+                                </use>
+                            </svg>+38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu__container--list">
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            
+                            Twitter
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container portfolio__container">
+            <ul class="portfolio__list--button list">
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn portfolio__btn--current" data-btn="all">
+                        All
+                    </button>
+                </li>
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn" data-btn="Web-site">
+                        Web-sites
+                    </button>
+                </li>
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn" data-btn="Application">
+                        Application
+                    </button>
+                </li>
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn" data-btn="Design">
+                        Design
+                    </button>
+                </li>
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn" data-btn="Marketing">
+                        Marketing
+                    </button>
+                </li>
+            </ul>
+            <ul class="portfolio__list--content list">
+                <li class="portfolio__item--content Web-site">
+                    <div class="portfolio__container--content">
+                        <picture>
+                            <source srcset="/Portfolio/assets/computer.x1-9aabbcd3.jpg 1x, /Portfolio/assets/computer.x2-81c7247b.jpg 2x, /Portfolio/assets/computer.x3-9a4aa544.jpg 3x"
+                            media="(min-width:1200px)">
+                            <source srcset="/Portfolio/assets/tablet-portfolio1.x1-a1bf1547.jpg 1x, /Portfolio/assets/tablet-portfolio1.x2-1d0f7965.jpg 2x, /Portfolio/assets/tablet-portfolio1.x3-6887c3f4.jpg 3x"
+                            media="(min-width:768px)">
+                            <source srcset="/Portfolio/assets/mobile__portfolio--erste.320-008b257c.jpg 1x, /Portfolio/assets/mobile__portfolio--erste.640-44a37a0f.jpg 2x, /Portfolio/assets/mobile__portfolio--erste.960-effbdeb3.jpg 3x, /Portfolio/assets/mobile__portfolio--erste.1280-a2bfb42c.jpg 3.5x"
+                            media="(max-width:767px)">
+                            <img src="/Portfolio/assets/img.portfolio.1-2c4228cb.jpg" alt="Laptop with photo of three people"
+                                width="370"
+                                height="294" class="portfolio--img">
+                        </picture>
+                        <div class="portfolio__container--transform">
+                            <a href="#" rel="noopener noreferrer">
+                            <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Technocrat
+                    </h2>
+                    <p class="portfolio--label">
+                        Web-site
+                    </p>
+                </li>
+                <li class="portfolio__item--content Design">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="/Portfolio/assets/pc-portfolio2.x1-5273c0a7.jpg 1x, /Portfolio/assets/pc-portfolio2.x2-372af2e5.jpg 2x, /Portfolio/assets/pc-portfolio2.x3-29ec98dd.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="/Portfolio/assets/tablet-portfolio2.x1-6b463b50.jpg 1x, /Portfolio/assets/tablet-portfolio2.x2-d3671d40.jpg 2x, /Portfolio/assets/tablet-portfolio2.x3-b87ff7a9.jpg 3x" media="(min-width:768px)">
+                        <source srcset="/Portfolio/assets/mobile__portfolio--zweite.320-f7d89c40.jpg 1x, /Portfolio/assets/mobile__portfolio--zweite.640-1617402c.jpg 2x, /Portfolio/assets/mobile__portfolio--zweite.960-9e7ca018.jpg 3x, /Portfolio/assets/mobile__portfolio--zweite.1280-0bd46878.jpg 3.5x"
+                            media="(max-width:767px)">
+                        <img src="/Portfolio/assets/pc-portfolio2.x1-5273c0a7.jpg" alt="basketball players" width="370" height="294"
+                           class="portfolio--img">
+                    </picture>
+                      <div class="portfolio__container--transform">
+                          <a href="#" rel="noopener noreferrer">
+                            <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Poster New Orlean vs Golden Star
+                    </h2>
+                    <p class="portfolio--label">
+                        Design
+                    </p>
+                </li>
+                <li class="portfolio__item--content Application">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="/Portfolio/assets/pc-portfolio3.x1-68f25181.jpg 1x, /Portfolio/assets/pc-portfolio3.x2-97ccc051.jpg 2x, /Portfolio/assets/pc-portfolio3.x3-15bc03de.jpg 3x" 
+                            media="(min-width:1200px)">
+                        <source srcset="/Portfolio/assets/tablet-portfolio3.x1-08ed6f1d.jpg 1x, /Portfolio/assets/tablet-portfolio3.x2-f64ffb45.jpg 2x, /Portfolio/assets/tablet-portfolio3.x3-21936e71.jpg 3x" 
+                            media="(min-width:768px)">
+                        <source srcset="/Portfolio/assets/mobile__portfolio--dritte.320-76a18e8b.jpg 1x, /Portfolio/assets/mobile__portfolio--dritte.640-66f14690.jpg 2x, /Portfolio/assets/mobile__portfolio--dritte.960-8e3eb37b.jpg 3x, /Portfolio/assets/mobile__portfolio--dritte.1280-576fb7bb.jpg 3.5x" 
+                            media="(min-width:320px)">
+                        <img src="/Portfolio/assets/pc-portfolio3.x1-68f25181.jpg" alt="fish business logo" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                    <div class="portfolio__container--transform">
+                        <a href="#" rel="noopener noreferrer">
+                        <p class="transform--label">
+                        The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                        </p>
+                        </a>
+                    </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Restaurant Seafood
+                    </h2>
+                    <p class="portfolio--label">
+                        Application
+                    </p>
+                </li>
+                <li class="portfolio__item--content Marketing">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="/Portfolio/assets/pc-portfolio4.x1-792209c9.jpg 1x, /Portfolio/assets/pc-portfolio4.x2-97a79df3.jpg 2x, /Portfolio/assets/pc-portfolio4.x3-648c70cc.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="/Portfolio/assets/tablet-portfolio4.x1-8e70dc7e.jpg 1x, /Portfolio/assets/tablet-portfolio4.x2-68c0ac0b.jpg 2x, /Portfolio/assets/tablet-portfolio4.x3-babfd60e.jpg 3x" media="(min-width:768px)">
+                        <source srcset="/Portfolio/assets/mobile__portfolio--vierte.320-4d7fa181.jpg 1x, /Portfolio/assets/mobile__portfolio--vierte.640-4b3183e6.jpg 2x, /Portfolio/assets/mobile__portfolio--vierte.960-53e1c3f7.jpg 3x, /Portfolio/assets/mobile__portfolio--vierte.1280-fb4c677e.jpg 3.5x" media="(min-width:320px)">
+                        <img src="/Portfolio/assets/pc-portfolio4.x1-792209c9.jpg" alt="Black headphones" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                        <div class="portfolio__container--transform">
+                            <a href="#" rel="noopener noreferrer">
+                            <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                            </p>
+                            </a>
+                         </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Project Prime
+                    </h2>
+                    <p class="portfolio--label">
+                        Marketing
+                    </p>
+                </li>
+                <li class="portfolio__item--content Application">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIASYBcgMBIgACEQEDEQH/xAAzAAEAAgMBAQEAAAAAAAAAAAAAAgMBBAUGBwgBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/aAAwDAQACEAMQAAAA+7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIVlkYZhbKiRajKQAAAAAAAAAAAAAAAAABXAnDGYDUxttuNzuHb1bh9zqzziM+rOU6harnLIAAAAAAAAAAAAAAK6bNE280XQznGTV4Pqa/N34G/0K6TiVkvSwjPT5t46uxzt8lgJzpqN1xe1IAAAAAAAAAAAACnn9HmluY5LLdcbWdeyFiIp5HdGjvAYpL6eJxTucLXql1fefPfoQAY1onaYzMAAAAAAAAAAVczqckulVMkDJgsnSNjFNcNrX42idDkZ15RqVCvFZ1vo3zT3dbb2joUc3TZTyexh0S6PMxavpJ+Y3ujm7LX2N8AmAAAAAAAHnvQ4OJdZom7mi0znGQwHO6PNOVjOCrW2NUqo2OnS/D6/cnz9Fdurfjto1bcb3cnrV1zhLX6sWxjPnK27tHzVL78PS8sAAAAAAABGQ5mn34nKsaZuKpEub0OccyKJXqz4Z2Ox5Df8AM9T2WfKdeJ6VVq9NXYlCVmIeeifR+c8fz6ab3KnXF49Dm7k1/RA9TxwAAAAAAAAAEZDl6foIHH0Op5UhxNLZNS7avide+dfmerOVdmO93S461fU+f4vB0pt6KMWRzWQhKshsauzMfpBjPqeMAAAAAAAAAAABim/B5zi+7geCs9bpQ8nod7zHm+ruTqsw6M5jKXN4Pe4F64ihMYhLXJa2rv65cvv93q9PH6X03hOjtz+3z5zpzHQVzMgAAAAAAAAAAYyIxsGr5P2uK3+QZ+seS4+3z2dWfL2annu/5q0WU6G7rlobvqel1cXL6W7tbc+ruX7BVs2bCMbUdiVmxTaXSrmSREgAAAAAAAAAAAAUeQ9tGl/hnF/QvIz2+ddLvVbc/O2dy41b9m9GvffdKm62wrsnMjZmQkkAAAAAAAAAAAAAAAYxIU6nQwcaPZgcy3cGvZdkqnZkhKUiMgAAAAAAAAAAAAAAAAAAYyMYkI5yMZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xABAEAACAgECAwUEBgcGBwAAAAABAgADEQQSBSFBEBMxUWEgQHGBBhQiMnKCIzNCUFKxsiQlNGSRoTBicHSAwdH/2gAIAQEAAT8A/wDIYv5QOYGB/dZeEk+wCRA37nLwknsx2ZHn7GSIG/cZfyhJPZiHlH1XRB8zLNYNxTeWcDJRTzxDqLLhaq7gQwClBkj8QPh6gzS/WkwLLAzZ/ZGIIbKw6oXUMRyGeZ7fCB4CD79Y+xczfu6+zqi21fLrLLNRYO7ap0JJU4yRg+oxK9PmvZdhx4gHnt+BGIlLsBgcvMypKUfbvBsxnGeYg79zz+xhuhDbhK6krXao5fEn+cJAlms01TIr2Bd7BVz1J6QEEcj2hzAwPvl/6owRbD1gIPbyMNVf8AhCVjO3/QZgFzn7eEAJBAOdw+PLEStEAAHgMAk5P+pmQBzlmsrBZEIawLu2ZG4j0EWziGr2ts7lTzw/N/gQOQ+RlHD66ju5lsAFicsQPMxVVeQHsWW11Dc7ACU8UW3VV0ovI5yT73f+qaCDsVz1gYH2dRdZVWzJUz4GcLgk/DMZNfqyc2dynTZzf05nkPUTT8PppHJepPn4wAAYHsW31VDLuBNRxfxFQx6mW6l7CSzEn1nCWzxLT/P+R97v/VN2D2FciBgev/Au1NNI+24HpNTxZjkVDaPPrLL3diWYkxmjNODHPE9P+b+R9gsFGSQBBrNOW274CD7rd+qf4QQH2gxEDDsz2Xaqmn7zc/IeM1HE7WyEG0f7yyxmJJMZoWjNCZwU/wB6ab4t/SexmVRkkAS3XKMisZ9ZZbZacuxMxK77qvuMfhKuIqeVq49REsRxlWBHud36t/gewGA+2HIl2qrpXc2fQS7X3WZC/YX0hJMaMYxhMYxmnA2xxTTsfAbsn5SzWgcqxn1Mssew5Yky2yupC9rqijxLHAg41p31Apqpts+0ASq+G7wO088evbiAuhypIPpKuIWLysAYefWVaqm37r8/I+5W9/RawZfsljiV2o3x8uwe3xH7lfxPYY8cxjCcREstbbWhY+ko4MThr3/KsqoppXbWgUdl2ivt1At+u2rWPCtMCWML0/tumrSjp3hy27pjHWaZKFqsbTU7SSc7lKlm9Sec+q8X1JzfYKvRWO1fwhSCT6ky3U6XhulHf6kkVp4uwLv/APTNHra9VWrKjqSucFTgfm8Oww8uecTTfSSga/TaJLe9aywJy5hfn7iQCCCARLuHI2TWdp8ukY30HFi8olqvjB5+Uz7BPZxH7lfxPYY3hHi1W2nbWhYynhI8b2/KJXXXUoWtAo8hDnBwMmLqCGCWptbBJK5KADzYgRXV1DKwKnwI5gw3uXK8lHPmYtnePsdFdc+WR6GXaKq+6uyx7CE5hNxC58yBFfVoxe0V11DkFGXJlel0WpsW36m1fdPuUMuwMx/ax1ImIxABJIAHiZrvpJo9NuWn9NZ6fdmv4trdaSLbMJ/AvITgBxxvhp/zCe5sqsCCARLuHKedR2ny6QtdQdtimJYjjkfl2Z7PCcR+5X8T2ExjHlWqtoY923xEo4pS+BYNh/2gZSMg5HY6K6lXUMp6EZEWlVsawM+SMBcnaPgJ3pDBb6BuZsLty/LzPIYiGs52EEZ6dpYAEsQAPEma76SaSjctA75/Tks13FdbrT+ltOzoi8lhjGcFOOMcO/7mv+r3VlVgQwBEu4eDzqbB8jC91J22KYtqOOR7eIn7FfxPYZffVUCXcCXa+yw7aVwPPrNIGAcs2SSIMSm+2g/YcgeXSU8TrbAtXafMeEV0ZcqwI9IIcGV11VAitFUegxHdUUszAKPEk4mt+kmmpytA71/PwWaziWs1rZutO3og5LD4RoTCZwo44pw8/wCZr/q93ZFcEMARLuH9ajj0ML20nbYpiWK3gZxH7lfxMtvqpXdY4UTUcVewldOv5jO7d2LWsSTAnkMCVKVB9hLrKzlHKmU8SHhavzE+sU7DZ3i7B1zNb9JNPXlNMveN/EeSzV8Q1erObrSR0UcgO1oSYTCZw5scR0R8r6/6h7y6I4wygiXcOwS1LfIzjmo1lFdSJWS5Y9MkQ0XWNuvckxagBgDEWqLR6S1NgWeeIDB2dZxTP1dfxjsJnPEJjQxoTOGVvfxTRU1YNjXLgZ8jn3uypLAQygiargdL5NfI+Ut4XbUfuwaYjxEWia9dgq9cwGA9mefZxQ/oF/GIYYYTkQwmWXV1jLtGvuvfZQhJPkMmcF4XqtLq6da9myytsqBzPzmh+kF/IXqG9RKNfRcBhoGB94x2Mit4iW6KtvARtEVnHKe70i245q4HyMrvRuXgfIwGAiHs4n/h1/GITCYTDLbUrG5mxH1VtrbKUOT8zNLwK60h9SxX0HMzS6CmhdtVYWV0ekqpAlQK+Eo1Fq9ZVqs+MW1WgPu+IRCoMs09dilXUFT4gziH0WrcM+kbaT+w3hLqNZon2W1svo3h8jK7kY4zg+RmZmcT/wAOv4xDDLLa6xl2AlmrttbZSh5+HUzS8DvuIfUMVHl4tNLw+jTriqsDzPUyuiJREqESuIkRYixICYGmfeMTEu09N6FLa1dT0Imv+iiHL6N8f8jy6rWaJ9lyMvo3/oyu9G5eB8jOKH+zj8YlttdfN2AlmsssOylTz+Zml4Hqbzv1DFAfm00vDtPpxiqsA9T1MSmJREqi1xa4tcVIqRVgEEHvt+npvQpbWrqehE1/0XHN9I/5GnHa9bpaBUyOrmwAAj+U0nAdZqCHvJrHrzYzScL0+mAFdfPqx5mLTFpi1Ra4tUWuLXFrgSBYFgEAg9+IlunqtGHQN8RNRwepslBiPw16/wBmDTkdIKfSLTFqi1xa4tcCQLAsCwCATHv5hEZFPSWaRG6RtJidziCqCuBIFgWBYBAJj9yYhWGsHpO7mybYFgExMfujExMTExMf9Rf/xAApEQACAQIFAgUFAAAAAAAAAAABAgMAEQQQITFAMkEFEiJgYRMgM1Fx/9oACAECAQE/APf008UIu7Wo+Ji/piNvk2rC4kYgN6bW42JwLSymQONex7UnhgveSS/wKjjSNQqKAOeWA3PGZ1Xc007HRRajfvSyOuxpZ1PULUCDseCzqu5ppmOi6Ub968jWyNskYhhb98GZiJnpXGdwKLZL1D+8HEfmfIEivMSPsXccHEg/VbNds1iZqSFV14LIr7ipMKRqmtEEGxFLtSxs1JCo34ror9QpYFX591f/xAAnEQACAQMDAwMFAAAAAAAAAAABAgADETEEMkAQEiEgUWAzQWFxgf/aAAgBAwEBPwD58qM2BBQ92lSn2EeeMlUKtiIa/sIzEm5PPCk4B4yozYESgo3G8Xt+0amj5EbTsNvmEEZHBVGbAi0FG7zBaGk1rwiC8AJj0wUa/seDQQGikZCOlzACYE6Ntb9cHTfRT+9CoM7AD6G2ng6U3oj8E9T1eqqZMqV2a4GOClR0N1Mp6tT4cWgIIuDDHqqmTH1DNjxCSeIlR02mPqXYYtCSflP/2Q== 1x, /Portfolio/assets/pc-portfolio5.x2-fe275f51.jpg 2x, /Portfolio/assets/pc-portfolio5.x3-95930713.jpg 3x" 
+                        media="(min-width:1200px)">
+                        <source srcset="data:image/jpeg;base64,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 1x, /Portfolio/assets/tablet-portfolio5.x2-f4eb0e59.jpg 2x, /Portfolio/assets/tablet-portfolio5.x3-29da0cef.jpg 3x"
+                        media="(min-width:768px)">
+                        <source srcset="/Portfolio/assets/mobile__portfolio--fünfte.320-badc0694.jpg 1x, /Portfolio/assets/mobile__portfolio--fünfte.640-df8b32c6.jpg 2x, /Portfolio/assets/mobile__portfolio--fünfte.960-4e5ed5eb.jpg 3x, /Portfolio/assets/mobile__portfolio--fünfte.1280-ec319260.jpg 3.5x"
+                        media="(min-width:320px)">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIASYBcgMBIgACEQEDEQH/xAAzAAEAAgMBAQEAAAAAAAAAAAAAAgMBBAUGBwgBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/aAAwDAQACEAMQAAAA+7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIVlkYZhbKiRajKQAAAAAAAAAAAAAAAAABXAnDGYDUxttuNzuHb1bh9zqzziM+rOU6harnLIAAAAAAAAAAAAAAK6bNE280XQznGTV4Pqa/N34G/0K6TiVkvSwjPT5t46uxzt8lgJzpqN1xe1IAAAAAAAAAAAACnn9HmluY5LLdcbWdeyFiIp5HdGjvAYpL6eJxTucLXql1fefPfoQAY1onaYzMAAAAAAAAAAVczqckulVMkDJgsnSNjFNcNrX42idDkZ15RqVCvFZ1vo3zT3dbb2joUc3TZTyexh0S6PMxavpJ+Y3ujm7LX2N8AmAAAAAAAHnvQ4OJdZom7mi0znGQwHO6PNOVjOCrW2NUqo2OnS/D6/cnz9Fdurfjto1bcb3cnrV1zhLX6sWxjPnK27tHzVL78PS8sAAAAAAABGQ5mn34nKsaZuKpEub0OccyKJXqz4Z2Ox5Df8AM9T2WfKdeJ6VVq9NXYlCVmIeeifR+c8fz6ab3KnXF49Dm7k1/RA9TxwAAAAAAAAAEZDl6foIHH0Op5UhxNLZNS7avide+dfmerOVdmO93S461fU+f4vB0pt6KMWRzWQhKshsauzMfpBjPqeMAAAAAAAAAAABim/B5zi+7geCs9bpQ8nod7zHm+ruTqsw6M5jKXN4Pe4F64ihMYhLXJa2rv65cvv93q9PH6X03hOjtz+3z5zpzHQVzMgAAAAAAAAAAYyIxsGr5P2uK3+QZ+seS4+3z2dWfL2annu/5q0WU6G7rlobvqel1cXL6W7tbc+ruX7BVs2bCMbUdiVmxTaXSrmSREgAAAAAAAAAAAAUeQ9tGl/hnF/QvIz2+ddLvVbc/O2dy41b9m9GvffdKm62wrsnMjZmQkkAAAAAAAAAAAAAAAYxIU6nQwcaPZgcy3cGvZdkqnZkhKUiMgAAAAAAAAAAAAAAAAAAYyMYkI5yMZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xABAEAACAgECAwUEBgcGBwAAAAABAgADEQQSBSFBEBMxUWEgQHGBBhQiMnKCIzNCUFKxsiQlNGSRoTBicHSAwdH/2gAIAQEAAT8A/wDIYv5QOYGB/dZeEk+wCRA37nLwknsx2ZHn7GSIG/cZfyhJPZiHlH1XRB8zLNYNxTeWcDJRTzxDqLLhaq7gQwClBkj8QPh6gzS/WkwLLAzZ/ZGIIbKw6oXUMRyGeZ7fCB4CD79Y+xczfu6+zqi21fLrLLNRYO7ap0JJU4yRg+oxK9PmvZdhx4gHnt+BGIlLsBgcvMypKUfbvBsxnGeYg79zz+xhuhDbhK6krXao5fEn+cJAlms01TIr2Bd7BVz1J6QEEcj2hzAwPvl/6owRbD1gIPbyMNVf8AhCVjO3/QZgFzn7eEAJBAOdw+PLEStEAAHgMAk5P+pmQBzlmsrBZEIawLu2ZG4j0EWziGr2ts7lTzw/N/gQOQ+RlHD66ju5lsAFicsQPMxVVeQHsWW11Dc7ACU8UW3VV0ovI5yT73f+qaCDsVz1gYH2dRdZVWzJUz4GcLgk/DMZNfqyc2dynTZzf05nkPUTT8PppHJepPn4wAAYHsW31VDLuBNRxfxFQx6mW6l7CSzEn1nCWzxLT/P+R97v/VN2D2FciBgev/Au1NNI+24HpNTxZjkVDaPPrLL3diWYkxmjNODHPE9P+b+R9gsFGSQBBrNOW274CD7rd+qf4QQH2gxEDDsz2Xaqmn7zc/IeM1HE7WyEG0f7yyxmJJMZoWjNCZwU/wB6ab4t/SexmVRkkAS3XKMisZ9ZZbZacuxMxK77qvuMfhKuIqeVq49REsRxlWBHud36t/gewGA+2HIl2qrpXc2fQS7X3WZC/YX0hJMaMYxhMYxmnA2xxTTsfAbsn5SzWgcqxn1Mssew5Yky2yupC9rqijxLHAg41p31Apqpts+0ASq+G7wO088evbiAuhypIPpKuIWLysAYefWVaqm37r8/I+5W9/RawZfsljiV2o3x8uwe3xH7lfxPYY8cxjCcREstbbWhY+ko4MThr3/KsqoppXbWgUdl2ivt1At+u2rWPCtMCWML0/tumrSjp3hy27pjHWaZKFqsbTU7SSc7lKlm9Sec+q8X1JzfYKvRWO1fwhSCT6ky3U6XhulHf6kkVp4uwLv/APTNHra9VWrKjqSucFTgfm8Oww8uecTTfSSga/TaJLe9aywJy5hfn7iQCCCARLuHI2TWdp8ukY30HFi8olqvjB5+Uz7BPZxH7lfxPYY3hHi1W2nbWhYynhI8b2/KJXXXUoWtAo8hDnBwMmLqCGCWptbBJK5KADzYgRXV1DKwKnwI5gw3uXK8lHPmYtnePsdFdc+WR6GXaKq+6uyx7CE5hNxC58yBFfVoxe0V11DkFGXJlel0WpsW36m1fdPuUMuwMx/ax1ImIxABJIAHiZrvpJo9NuWn9NZ6fdmv4trdaSLbMJ/AvITgBxxvhp/zCe5sqsCCARLuHKedR2ny6QtdQdtimJYjjkfl2Z7PCcR+5X8T2ExjHlWqtoY923xEo4pS+BYNh/2gZSMg5HY6K6lXUMp6EZEWlVsawM+SMBcnaPgJ3pDBb6BuZsLty/LzPIYiGs52EEZ6dpYAEsQAPEma76SaSjctA75/Tks13FdbrT+ltOzoi8lhjGcFOOMcO/7mv+r3VlVgQwBEu4eDzqbB8jC91J22KYtqOOR7eIn7FfxPYZffVUCXcCXa+yw7aVwPPrNIGAcs2SSIMSm+2g/YcgeXSU8TrbAtXafMeEV0ZcqwI9IIcGV11VAitFUegxHdUUszAKPEk4mt+kmmpytA71/PwWaziWs1rZutO3og5LD4RoTCZwo44pw8/wCZr/q93ZFcEMARLuH9ajj0ML20nbYpiWK3gZxH7lfxMtvqpXdY4UTUcVewldOv5jO7d2LWsSTAnkMCVKVB9hLrKzlHKmU8SHhavzE+sU7DZ3i7B1zNb9JNPXlNMveN/EeSzV8Q1erObrSR0UcgO1oSYTCZw5scR0R8r6/6h7y6I4wygiXcOwS1LfIzjmo1lFdSJWS5Y9MkQ0XWNuvckxagBgDEWqLR6S1NgWeeIDB2dZxTP1dfxjsJnPEJjQxoTOGVvfxTRU1YNjXLgZ8jn3uypLAQygiargdL5NfI+Ut4XbUfuwaYjxEWia9dgq9cwGA9mefZxQ/oF/GIYYYTkQwmWXV1jLtGvuvfZQhJPkMmcF4XqtLq6da9myytsqBzPzmh+kF/IXqG9RKNfRcBhoGB94x2Mit4iW6KtvARtEVnHKe70i245q4HyMrvRuXgfIwGAiHs4n/h1/GITCYTDLbUrG5mxH1VtrbKUOT8zNLwK60h9SxX0HMzS6CmhdtVYWV0ekqpAlQK+Eo1Fq9ZVqs+MW1WgPu+IRCoMs09dilXUFT4gziH0WrcM+kbaT+w3hLqNZon2W1svo3h8jK7kY4zg+RmZmcT/wAOv4xDDLLa6xl2AlmrttbZSh5+HUzS8DvuIfUMVHl4tNLw+jTriqsDzPUyuiJREqESuIkRYixICYGmfeMTEu09N6FLa1dT0Imv+iiHL6N8f8jy6rWaJ9lyMvo3/oyu9G5eB8jOKH+zj8YlttdfN2AlmsssOylTz+Zml4Hqbzv1DFAfm00vDtPpxiqsA9T1MSmJREqi1xa4tcVIqRVgEEHvt+npvQpbWrqehE1/0XHN9I/5GnHa9bpaBUyOrmwAAj+U0nAdZqCHvJrHrzYzScL0+mAFdfPqx5mLTFpi1Ra4tUWuLXFrgSBYFgEAg9+IlunqtGHQN8RNRwepslBiPw16/wBmDTkdIKfSLTFqi1xa4tcCQLAsCwCATHv5hEZFPSWaRG6RtJidziCqCuBIFgWBYBAJj9yYhWGsHpO7mybYFgExMfujExMTExMf9Rf/xAApEQACAQIFAgUFAAAAAAAAAAABAgMAEQQQITFAMkEFEiJgYRMgM1Fx/9oACAECAQE/APf008UIu7Wo+Ji/piNvk2rC4kYgN6bW42JwLSymQONex7UnhgveSS/wKjjSNQqKAOeWA3PGZ1Xc007HRRajfvSyOuxpZ1PULUCDseCzqu5ppmOi6Ub968jWyNskYhhb98GZiJnpXGdwKLZL1D+8HEfmfIEivMSPsXccHEg/VbNds1iZqSFV14LIr7ipMKRqmtEEGxFLtSxs1JCo34ror9QpYFX591f/xAAnEQACAQMDAwMFAAAAAAAAAAABAgADETEEMkAQEiEgUWAzQWFxgf/aAAgBAwEBPwD58qM2BBQ92lSn2EeeMlUKtiIa/sIzEm5PPCk4B4yozYESgo3G8Xt+0amj5EbTsNvmEEZHBVGbAi0FG7zBaGk1rwiC8AJj0wUa/seDQQGikZCOlzACYE6Ntb9cHTfRT+9CoM7AD6G2ng6U3oj8E9T1eqqZMqV2a4GOClR0N1Mp6tT4cWgIIuDDHqqmTH1DNjxCSeIlR02mPqXYYtCSflP/2Q==" alt="white box and ordinary smaller box" width="370"
+                            height="294" class="portfolio--img">
+                    </picture>
+                    <div class="portfolio__container--transform">
+                        <a href="#" rel="noopener noreferrer">
+                        <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                        </p>
+                        </a>
+                    </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Project Boxes
+                    </h2>
+                    <p class="portfolio--label">
+                        Application
+                    </p>
+                </li>
+                <li class="portfolio__item--content Web-site">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="/Portfolio/assets/pc-portfolio6.x1-bf666bd8.jpg 1x, /Portfolio/assets/pc-portfolio6.x2-dbf771c9.jpg 2x, /Portfolio/assets/pc-portfolio6.x3-37569c78.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="/Portfolio/assets/tablet-portfolio6.x1-fe03e106.jpg 1x, /Portfolio/assets/tablet-portfolio6.x2-2f182015.jpg 2x, /Portfolio/assets/tablet-portfolio6.x3-6a6b04bc.jpg 3x" media="(min-width:768px)">
+                        <source srcset="/Portfolio/assets/mobile__portfolio--sechste.320-4e9cd1f6.jpg 1x, /Portfolio/assets/mobile__portfolio--sechste.640-e03b363e.jpg 2x, /Portfolio/assets/mobile__portfolio--sechste.960-82e4c3de.jpg 3x, /Portfolio/assets/mobile__portfolio--sechste.1280-1200d181.jpg 3.5x" media="(min-width:320px)">
+                        <img src="/Portfolio/assets/pc-portfolio6.x1-bf666bd8.jpg" alt="computer screen" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                        <div class="portfolio__container--transform">
+                            <a href="#" rel="noopener noreferrer">
+                            <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Inspiration has no Borders
+                    </h2>
+                    <p class="portfolio--label">
+                        Web-site
+                    </p>
+                </li>
+                <li class="portfolio__item--content Design">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="/Portfolio/assets/pc-portfolio7.x1-e7a6342d.jpg 1x, /Portfolio/assets/pc-portfolio7.x2-018c2a69.jpg 2x, /Portfolio/assets/pc-portfolio7.x3-8abe9eb9.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="/Portfolio/assets/tablet-portfolio7.x1-0e994818.jpg 1x, /Portfolio/assets/tablet-portfolio7.x2-125a1e53.jpg 2x, /Portfolio/assets/tablet-portfolio7.x3-5f2c4269.jpg 3x"
+                            media="(min-width:768px)">
+                        <source srcset="/Portfolio/assets/mobile__portfolio--siebter.320-ccb1f3a7.jpg 1x, /Portfolio/assets/mobile__portfolio--siebter.640-858d7657.jpg 2x, /Portfolio/assets/mobile__portfolio--siebter.960-a25c11d4.jpg 3x, /Portfolio/assets/mobile__portfolio--siebter.1280-ae3a651f.jpg 3.5x" 
+                            media="(min-width:320px)">
+                        <img src="/Portfolio/assets/pc-portfolio7.x1-e7a6342d.jpg" alt="magazine" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                        <div class="portfolio__container--transform">
+                                <a href="#" rel="noopener noreferrer">
+                                <p class="transform--label">
+                                The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                                </p>
+                                </a>
+                            </div>
+                        </div>
+                    <h2 class="portfolio--title">
+                        Edition Limited Edition
+                    </h2>
+                    <p class="portfolio--label">
+                        Design
+                    </p>
+                </li>
+                <li class="portfolio__item--content Marketing">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="/Portfolio/assets/pc-portfolio8.x1-408503c9.jpg 1x, /Portfolio/assets/pc-portfolio8.x2-c716d1b3.jpg 2x, /Portfolio/assets/pc-portfolio8.x3-b373f58a.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="/Portfolio/assets/tablet-portfolio8.x1-eb960495.jpg 1x, /Portfolio/assets/tablet-portfolio8.x2-5f289935.jpg 2x, /Portfolio/assets/tablet-portfolio8.x3-974e2671.jpg 3x"
+                            media="(min-width:768px)">
+                        <source  srcset="/Portfolio/assets/mobile__portfolio--achte.320-6927ed84.jpg 1x, /Portfolio/assets/mobile__portfolio--achte.640-36a8c972.jpg 2x, /Portfolio/assets/mobile__portfolio--achte.960-7bbae17f.jpg 3x, /Portfolio/assets/mobile__portfolio--achte.1280-f2252f06.jpg 3.5x"
+                            media="(min-width:320px)">
+                        <img src="/Portfolio/assets/pc-portfolio8.x1-408503c9.jpg" alt="white tag" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                    <div class="portfolio__container--transform">
+                        <a href="#" rel="noopener noreferrer">
+                        <p class="transform--label">
+                        The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                        </p>
+                        </a>
+                        </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Project LAB
+                    </h2>
+                    <p class="portfolio--label">
+                        Marketing
+                    </p>
+                </li>
+                <li class="portfolio__item--content Application">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="/Portfolio/assets/pc-portfolio9.x1-24eb70aa.jpg 1x, /Portfolio/assets/pc-portfolio9.x2-73dac3b7.jpg 2x, /Portfolio/assets/pc-portfolio9.x3-f1c89a36.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="/Portfolio/assets/tablet-portfolio9.x1-aece4d88.jpg 1x, /Portfolio/assets/tablet-portfolio9.x2-3f4775b7.jpg 2x, /Portfolio/assets/tablet-portfolio9.x3-e892adb4.jpg 3x"
+                            media="(min-width:768px)">
+                        <source  srcset="/Portfolio/assets/mobile__portfolio--neunte.320-df6a81bf.jpg 1x, /Portfolio/assets/mobile__portfolio--neunte.640-7fc41958.jpg 2x, /Portfolio/assets/mobile__portfolio--neunte.960-289df72e.jpg 3x, /Portfolio/assets/mobile__portfolio--neunte.1280-1c85104c.jpg 3.5x"
+                            media="(min-width:320px)">
+                        <img src="/Portfolio/assets/pc-portfolio9.x1-24eb70aa.jpg" alt="MacBook" width="370" height="294" class="portfolio--img">
+                    </picture>
+                    <div class="portfolio__container--transform">
+                        <a href="#" rel="noopener noreferrer">
+                        <p class="transform--label">
+                        The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                        </p>
+                        </a>
+                      </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Growing Business
+                    </h2>
+                    <p class="portfolio--label">
+                        Application
+                    </p>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="cellar">
+        <div class="container cellar__container">
+            <div class="cellar__container--contact">
+                <a href="./" lang="en" class="logo cellar--logo">
+                    <span class="logo--web">Web</span>Studio
+                </a>
+                <address class="cellar__address">
+                    <a class="cellar__link cellar__link--label location" href="https://goo.gl/maps/cegaFSzmEe4wthp77"
+                        rel="noopener noreferrer" target="_blank">
+                        Kyiv, st. Lesi Ukrainka, 26
+                    </a>
+                    <a class="cellar__link cellar__link--label post" href="mailto:info@example.com">
+                        info@example.com
+                    </a>
+                    <a class="cellar__link cellar__link--label" href="tel:+380991111111">
+                        +38 099 111 11 11
+                    </a>
+                </address>
+            </div>
+            <div class="cellar__reference--container">
+                <h3 class="cellar--title">
+                    JOIN TO US!
+                </h3>
+                <ul class="team__list--icon reference__list--icon">
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="/Portfolio/assets/icons-207a2e32.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="/Portfolio/assets/icons-207a2e32.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="/Portfolio/assets/icons-207a2e32.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="/Portfolio/assets/icons-207a2e32.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="telegram--container">
+                <h3 class="cellar--title">
+                    SUBSCRIBE TO OUR NEWSLETTERS
+                </h3>
+                <form>
+                    <div class="telegram__email">
+                        <input class="telegram__email--input" type="email" name="email" placeholder="E-mail">
+                        <button type="submit" class="telegram__email--btn">
+                                Subscribe                            
+                            <svg width="24" height="24" class="telegram__email--icon">
+                                <use href="/Portfolio/assets/icons-207a2e32.svg#icon-icon-send">
+                                </use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/portfolio-filter.js"></script>
+
+</body>
