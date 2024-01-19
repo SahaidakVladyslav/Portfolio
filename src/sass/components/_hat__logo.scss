@@ -1,0 +1,81 @@
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: $text-color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.cellar--logo {
+  color: #ffffff;
+  display: block;
+}
+.hat__logo--web {
+  color: $accent-color;
+}
+
+.hat__link--icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.hat__link:focus .hat__link--icon,
+.hat__link:hover .hat__link--icon {
+  fill: currentColor;
+}
+.hat__link {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.hat__list {
+  display: flex;
+  margin-left: auto;
+}
+.browsing__list {
+  display: flex;
+}
+.hat__logo {
+  margin-right: 93px;
+}
+.hat__container {
+  max-height: 80px;
+  display: flex;
+  align-items: center;
+}
+.browsing__item {
+  max-height: 80px;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+.browsing__link {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: $text-color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+  &:active {
+    color: $brand-color;
+  }
+}
+.hat__link--label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}

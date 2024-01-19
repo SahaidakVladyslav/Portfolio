@@ -1,0 +1,32 @@
+@media screen and (min-width: 150px) and (max-width: 767px) {
+  .about {
+    max-width: 480px;
+    padding: 60px 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .about__svg--container {
+    padding: 10% 45%;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .about__title {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .about__label {
+    display: flex;
+    width: 450px;
+  }
+  .provide {
+    display: none;
+  }
+}
+@media screen and (min-width: 150px) and (max-width: 450px) {
+  .about__label {
+    width: 340px;
+  }
+}

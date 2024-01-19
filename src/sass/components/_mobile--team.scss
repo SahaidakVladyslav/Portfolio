@@ -1,0 +1,29 @@
+@media screen and (min-width: 150px) and (max-width: 767px) {
+  .team {
+    padding: 60px 15px;
+  }
+  .team__container {
+    max-width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .team__item {
+    max-width: 450px;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+      margin-right: 0;
+    }
+    padding-bottom: 24px;
+  }
+
+  .team__title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .team__img {
+    width: 100%;
+  }
+  .team__list--icon {
+    margin-bottom: 0px;
+  }
+}

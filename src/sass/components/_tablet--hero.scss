@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) and (max-width: 1429px) {
+  .hero {
+    background-color: #2f303a66;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/tablet--img/tablet--Header.320.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/tablet--img/tablet--Header.640.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  @media screen and (min-device-pixel-ratio: 3),
+    screen and (min-resolution: 3dppx),
+    screen and (min-resolution: 288dpi) {
+    .hero {
+      background-image: url(../images/tablet--img/tablet--Header.960.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .hero {
+    max-width: 100vw;
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+  .hero__container {
+    width: 360px;
+  }
+  .hero--title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 1.61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .hero__button {
+    width: 200px;
+  }
+  .modal {
+    max-width: 450px;
+    height: 609px;
+  }
+  .backdrop__input {
+    width: 370px;
+  }
+  textarea {
+    width: 370px;
+  }
+}

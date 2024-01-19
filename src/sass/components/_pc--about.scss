@@ -1,0 +1,17 @@
+@media screen and (min-width: 1430px) {
+  .about__container {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about__list {
+    display: flex;
+  }
+  .about__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .about__svg--container {
+    padding: 25px 102px;
+  }
+}

@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) and (max-width: 1430px) {
+  .hat__container {
+    width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 21px 15px;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .menu__container--list {
+    display: none;
+  }
+  .menu-container {
+    display: flex;
+  }
+  .hat__list {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 84px;
+    & > li:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .hat__link {
+    margin-right: 0;
+  }
+}

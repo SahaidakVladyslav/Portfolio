@@ -1,0 +1,74 @@
+@media screen and (min-width: 150px) and (max-width: 767px) {
+  .cellar {
+    padding: 0;
+  }
+  .cellar__container {
+    padding: 60px 15px;
+    flex-direction: column;
+  }
+  .cellar__reference--container {
+    margin: 0 auto;
+  }
+  .reference__list--icon {
+    margin-top: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .telegram--container {
+    margin: 0;
+  }
+
+  .logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
+  .cellar--logo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  .cellar__address {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cellar__link:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  .cellar__link {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    text-align: center;
+  }
+  .cellar--title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-top: 60px;
+  }
+  .telegram__email {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .telegram__email--input {
+    max-width: 93vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  .telegram__email--btn {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

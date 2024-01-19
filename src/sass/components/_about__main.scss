@@ -1,0 +1,128 @@
+.about__svg--container {
+  display: block;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.about__label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  width: 270px;
+}
+
+.probide {
+  padding-bottom: 94px;
+}
+.provide__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.provide__list {
+  display: flex;
+}
+.team__label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.text-profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #757575;
+  margin-bottom: 16px;
+}
+.team__list--icon {
+  list-style: none;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.team__item--icon {
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.link--icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon--network {
+  fill: $svg-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link--icon:focus,
+.link--icon:hover {
+  background-color: $accent-color;
+}
+.link--icon:focus .icon--network,
+.link--icon:hover .icon--network {
+  fill: #fff;
+}
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.customers__list {
+  list-style: none;
+  display: flex;
+}
+.cutomers__link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cutomers__link:hover,
+.cutomers__link:focus {
+  border-color: $accent-color;
+}
+.customers__svg {
+  fill: $svg-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cutomers__link:hover .customers__svg,
+.cutomers__link:focus .customers__svg {
+  fill: $accent-color;
+}
+.customers__item:not(:last-child) {
+  margin-right: 30px;
+}

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="./css/main.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="hat">
+        <div class="container hat__container">
+            <a href="./index.html" lang="en" class="logo hat__logo">
+                <span class="hat__logo--web">Web</span>Studio
+            </a>
+            <button class="menu__btn--open menu-toggle js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+                <svg width="24" height="16px">
+                    <use href="./images/icons.svg#icon-menu_24px"></use>
+                </svg>
+            </button>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="menu__btn--close menu-toggle js-close-menu"><svg width="24" height="16px">
+                        <use href="./images/icons.svg#icon-close">
+                        </use>
+                    </svg></button>
+                <nav class="browsing">
+                    <ul class="browsing__list list">
+                        <li class="browsing__item">
+                            <a class="browsing__link hat__link--label" href="./index.html">
+                                Studio
+                            </a>
+                        </li>
+                        <li class="browsing__item  link__current">
+                            <a class="browsing__link hat__link--label current" href="./portfolio.html">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="browsing__item">
+                            <a class="browsing__link hat__link--label" href="">
+                                Contacts
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="hat__list list">
+                    <li>
+                        <a class="hat__link hat__link--label hat__link--post" href="mailto:info@devstudio.com">
+                            <svg class="hat__link--icon" width="16" height="12">
+                                <use href="images/icons.svg#icon-envelope">
+                                </use>
+                            </svg>info@devstudio.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hat__link hat__link--label " href="tel:+380961111111">
+                            <svg class="hat__link--icon" width="10" height="16">
+                                <use href="images/icons.svg#icon-smartphone">
+                                </use>
+                            </svg>+38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu__container--list">
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            
+                            Twitter
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container portfolio__container">
+            <ul class="portfolio__list--button list">
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn portfolio__btn--current" data-btn="all">
+                        All
+                    </button>
+                </li>
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn" data-btn="Web-site">
+                        Web-sites
+                    </button>
+                </li>
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn" data-btn="Application">
+                        Application
+                    </button>
+                </li>
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn" data-btn="Design">
+                        Design
+                    </button>
+                </li>
+                <li class="portfolio__item--button">
+                    <button type="button" class="portfolio--btn" data-btn="Marketing">
+                        Marketing
+                    </button>
+                </li>
+            </ul>
+            <ul class="portfolio__list--content list">
+                <li class="portfolio__item--content Web-site">
+                    <div class="portfolio__container--content">
+                        <picture>
+                            <source srcset="./images/portfolio--pc/computer.x1.jpg 1x,
+                            ./images/portfolio--pc/computer.x2.jpg 2x,
+                            ./images/portfolio--pc/computer.x3.jpg 3x"
+                            media="(min-width:1200px)">
+                            <source srcset="
+                            ./images/tabplet--portfolio/tablet-portfolio1.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio1.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio1.x3.jpg 3x
+                            "
+                            media="(min-width:768px)">
+                            <source srcset="./images/mobile--img/mobile__portfolio--erste.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--erste.640.jpg 2x,
+                            /images/mobile--img/mobile__portfolio--erste.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--erste.1280.jpg 3.5x"
+                            media="(max-width:767px)">
+                            <img src="./images/img.portfolio.1.jpg" alt="Laptop with photo of three people"
+                                width="370"
+                                height="294" class="portfolio--img">
+                        </picture>
+                        <div class="portfolio__container--transform">
+                            <a href="#" rel="noopener noreferrer">
+                            <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Technocrat
+                    </h2>
+                    <p class="portfolio--label">
+                        Web-site
+                    </p>
+                </li>
+                <li class="portfolio__item--content Design">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="./images/portfolio--pc/pc-portfolio2.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio2.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio2.x3.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio2.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio2.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio2.x3.jpg 3x
+                            " media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--zweite.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--zweite.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--zweite.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--zweite.1280.jpg 3.5x"
+                            media="(max-width:767px)">
+                        <img src="./images/img.portfolio.2.jpg" alt="basketball players" width="370" height="294"
+                           class="portfolio--img">
+                    </picture>
+                      <div class="portfolio__container--transform">
+                          <a href="#" rel="noopener noreferrer">
+                            <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Poster New Orlean vs Golden Star
+                    </h2>
+                    <p class="portfolio--label">
+                        Design
+                    </p>
+                </li>
+                <li class="portfolio__item--content Application">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="
+                            ./images/portfolio--pc/pc-portfolio3.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio3.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio3.x3.jpg 3x" 
+                            media="(min-width:1200px)">
+                        <source srcset="
+                              ./images/tabplet--portfolio/tablet-portfolio3.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio3.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio3.x3.jpg 3x" 
+                            media="(min-width:768px)">
+                        <source srcset="./images/mobile--img/mobile__portfolio--dritte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--dritte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--dritte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--dritte.1280.jpg 3.5x" 
+                            media="(min-width:320px)">
+                        <img src="./images/img.portfolio.3.jpg" alt="fish business logo" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                    <div class="portfolio__container--transform">
+                        <a href="#" rel="noopener noreferrer">
+                        <p class="transform--label">
+                        The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                        </p>
+                        </a>
+                    </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Restaurant Seafood
+                    </h2>
+                    <p class="portfolio--label">
+                        Application
+                    </p>
+                </li>
+                <li class="portfolio__item--content Marketing">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="
+                             ./images/portfolio--pc/pc-portfolio4.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio4.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio4.x3.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio4.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio4.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio4.x3.jpg 3x" media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--vierte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--vierte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--vierte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--vierte.1280.jpg 3.5x
+                            " media="(min-width:320px)">
+                        <img src="./images/img.portfolio.4.jpg" alt="Black headphones" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                        <div class="portfolio__container--transform">
+                            <a href="#" rel="noopener noreferrer">
+                            <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                            </p>
+                            </a>
+                         </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Project Prime
+                    </h2>
+                    <p class="portfolio--label">
+                        Marketing
+                    </p>
+                </li>
+                <li class="portfolio__item--content Application">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="./images/portfolio--pc/pc-portfolio5.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio5.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio5.x3.jpg 3x" 
+                        media="(min-width:1200px)">
+                        <source srcset="
+                            ./images/tabplet--portfolio/tablet-portfolio5.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio5.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio5.x3.jpg 3x"
+                        media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--fünfte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--fünfte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--fünfte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--fünfte.1280.jpg 3.5x
+                            "
+                        media="(min-width:320px)">
+                        <img src="./images/img.portfolio.5.jpg" alt="white box and ordinary smaller box" width="370"
+                            height="294" class="portfolio--img">
+                    </picture>
+                    <div class="portfolio__container--transform">
+                        <a href="#" rel="noopener noreferrer">
+                        <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                        </p>
+                        </a>
+                    </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Project Boxes
+                    </h2>
+                    <p class="portfolio--label">
+                        Application
+                    </p>
+                </li>
+                <li class="portfolio__item--content Web-site">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="
+                            ./images/portfolio--pc/pc-portfolio6.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio6.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio6.x3.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio6.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio6.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio6.x3.jpg 3x
+                            " media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--sechste.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--sechste.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--sechste.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--sechste.1280.jpg 3.5x
+                            " media="(min-width:320px)">
+                        <img src="./images/img.portfolio.6.jpg" alt="computer screen" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                        <div class="portfolio__container--transform">
+                            <a href="#" rel="noopener noreferrer">
+                            <p class="transform--label">
+                            The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Inspiration has no Borders
+                    </h2>
+                    <p class="portfolio--label">
+                        Web-site
+                    </p>
+                </li>
+                <li class="portfolio__item--content Design">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="
+                            ./images/portfolio--pc/pc-portfolio7.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio7.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio7.x3.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio7.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio7.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio7.x3.jpg 3x"
+                            media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--siebter.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--siebter.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--siebter.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--siebter.1280.jpg 3.5x
+                            " 
+                            media="(min-width:320px)">
+                        <img src="./images/img.portfolio.7.jpg" alt="magazine" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                        <div class="portfolio__container--transform">
+                                <a href="#" rel="noopener noreferrer">
+                                <p class="transform--label">
+                                The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                                </p>
+                                </a>
+                            </div>
+                        </div>
+                    <h2 class="portfolio--title">
+                        Edition Limited Edition
+                    </h2>
+                    <p class="portfolio--label">
+                        Design
+                    </p>
+                </li>
+                <li class="portfolio__item--content Marketing">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="
+                             ./images/portfolio--pc/pc-portfolio8.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio8.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio8.x3.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio8.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio8.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio8.x3.jpg 3x"
+                            media="(min-width:768px)">
+                        <source  srcset="
+                            ./images/mobile--img/mobile__portfolio--achte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--achte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--achte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--achte.1280.jpg 3.5x
+                            "
+                            media="(min-width:320px)">
+                        <img src="./images/img.portfolio.8.jpg" alt="white tag" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
+                    <div class="portfolio__container--transform">
+                        <a href="#" rel="noopener noreferrer">
+                        <p class="transform--label">
+                        The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                        </p>
+                        </a>
+                        </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Project LAB
+                    </h2>
+                    <p class="portfolio--label">
+                        Marketing
+                    </p>
+                </li>
+                <li class="portfolio__item--content Application">
+                    <div class="portfolio__container--content">
+                    <picture>
+                        <source srcset="
+                             ./images/portfolio--pc/pc-portfolio9.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio9.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio9.x3.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio9.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio9.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio9.x3.jpg 3x"
+                            media="(min-width:768px)">
+                        <source  srcset="
+                            ./images/mobile--img/mobile__portfolio--neunte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--neunte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--neunte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--neunte.1280.jpg 3.5x
+                            "
+                            media="(min-width:320px)">
+                        <img src="./images/img.portfolio.9.jpg" alt="MacBook" width="370" height="294" class="portfolio--img">
+                    </picture>
+                    <div class="portfolio__container--transform">
+                        <a href="#" rel="noopener noreferrer">
+                        <p class="transform--label">
+                        The technocrat is the modern site for the coronavirus. Companies use this platform for digital espionage and attacks on protected competitor servers.
+                        </p>
+                        </a>
+                      </div>
+                    </div>
+                    <h2 class="portfolio--title">
+                        Growing Business
+                    </h2>
+                    <p class="portfolio--label">
+                        Application
+                    </p>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="cellar">
+        <div class="container cellar__container">
+            <div class="cellar__container--contact">
+                <a href="./" lang="en" class="logo cellar--logo">
+                    <span class="logo--web">Web</span>Studio
+                </a>
+                <address class="cellar__address">
+                    <a class="cellar__link cellar__link--label location" href="https://goo.gl/maps/cegaFSzmEe4wthp77"
+                        rel="noopener noreferrer" target="_blank">
+                        Kyiv, st. Lesi Ukrainka, 26
+                    </a>
+                    <a class="cellar__link cellar__link--label post" href="mailto:info@example.com">
+                        info@example.com
+                    </a>
+                    <a class="cellar__link cellar__link--label" href="tel:+380991111111">
+                        +38 099 111 11 11
+                    </a>
+                </address>
+            </div>
+            <div class="cellar__reference--container">
+                <h3 class="cellar--title">
+                    JOIN TO US!
+                </h3>
+                <ul class="team__list--icon reference__list--icon">
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="telegram--container">
+                <h3 class="cellar--title">
+                    SUBSCRIBE TO OUR NEWSLETTERS
+                </h3>
+                <form>
+                    <div class="telegram__email">
+                        <input class="telegram__email--input" type="email" name="email" placeholder="E-mail">
+                        <button type="submit" class="telegram__email--btn">
+                                Subscribe                            
+                            <svg width="24" height="24" class="telegram__email--icon">
+                                <use href="images/icons.svg#icon-icon-send">
+                                </use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/portfolio-filter.js"></script>
+
+</body>

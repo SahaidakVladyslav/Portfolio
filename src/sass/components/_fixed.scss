@@ -1,0 +1,22 @@
+@media screen and (min-width: 350px) and (max-width: 480px) {
+  .hat {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  .hero {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 2300px) {
+  .hat {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  .hero {
+    margin-top: 80px;
+  }
+}
