@@ -1,6 +1,5 @@
 
 
-console.log('test1')
 import throttle from 'lodash.throttle';
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
@@ -83,4 +82,3 @@ formEl.addEventListener('submit', (event) => {
     console.log(data)
     formEl.reset()
 })
-console.log('test2')
