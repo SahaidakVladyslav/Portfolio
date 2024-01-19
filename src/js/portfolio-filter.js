@@ -1,3 +1,5 @@
+console.log('test1')
+
 const filterBox = document.querySelectorAll('.project__item');
 const itemEl = document.querySelectorAll('.portfolio__item--content')
 const btnAllEl = document.querySelector('[data-btn="all"]')
@@ -27,3 +29,4 @@ document.querySelector('body')
 
 
 
+console.log('test2')
