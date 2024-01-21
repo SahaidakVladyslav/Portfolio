@@ -1,0 +1,2 @@
+import"./assets/mobile-menu-4c592b2c.js";document.querySelectorAll(".project__item");const r=document.querySelectorAll(".portfolio__item--content"),l=document.querySelector('[data-btn="all"]'),c=t=>{if(t.target.tagName!=="BUTTON")return!1;let o=t.target.dataset.btn;r.forEach(e=>{e.classList.contains(o)?(e.style.display="block",l.classList.remove("portfolio__btn--current")):e.style.display="none",t.target===l&&(e.style.display="block")})};document.querySelector("body").addEventListener("click",t=>{c(t)});
+//# sourceMappingURL=commonHelpers3.js.map
