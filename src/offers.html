@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+                integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+                rel="stylesheet">
+            <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body> 
+    <header class="hat">
+        <div class="container hat__container">
+            <a href="./index.html" lang="en" class="logo hat__logo">
+                <span class="hat__logo--web">Web</span>Studio
+            </a>
+            <button class="menu__btn--open menu-toggle js-open-menu" type="button" aria-expanded="false"
+                aria-controls="mobile-menu">
+                <svg width="24" height="16px">
+                    <use href="./images/icons.svg#icon-menu_24px"></use>
+                </svg>
+            </button>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="menu__btn--close menu-toggle js-close-menu"><svg width="24" height="16px">
+                        <use href="./images/icons.svg#icon-close">
+                        </use>
+                    </svg></button>
+                <nav class="browsing">
+                    <ul class="browsing__list list">
+                        <li class="browsing__item">
+                            <a class="browsing__link hat__link--label" href="./index.html">
+                                Studio
+                            </a>
+                        </li>
+                        <li class="browsing__item  ">
+                            <a class="browsing__link hat__link--label " href="./portfolio.html">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="browsing__item link__current">
+                            <a class="browsing__link hat__link--label current" href="./offers.html">
+                                Offers
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="hat__list list">
+                    <li>
+                        <a class="hat__link hat__link--label hat__link--post" href="mailto:svg.231@gmail.com">
+                            <svg class="hat__link--icon" width="16" height="12">
+                                <use href="images/icons.svg#icon-envelope">
+                                </use>
+                            </svg>svg.231@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hat__link hat__link--label " href="tel:+4591700804">
+                            <svg class="hat__link--icon" width="10" height="16">
+                                <use href="images/icons.svg#icon-smartphone">
+                                </use>
+                            </svg>+45 9170 0804
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu__container--list">
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+    
+                            Twitter
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+    
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="menu__container--item">
+                        <a class="menu__container--link" href="#">
+    
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<main>
+    <section class="offers">
+<h1 class="offers--title">
+    Greetings! Here you will be able to find our offers for you.
+</h1>
+<ul class="list__offers">
+    <li class="item__offers">
+        <p class="offers--label"> <b>Please write how many ms you would like to wait wor first offer</b></p>
+    </li>   
+    <li class="item__offers">
+    <p class="offers--label"> <b>Please write how many ms you would like to wait wor all another offers</b></p>
+    </li>
+    <li class="item__offers">
+        <p class="offers--label"> <b>Please specify the number of offers you would like to receive.</b></p>
+    </li>
+</ul>
+<form class="form">
+    <label>
+        First delay (ms)
+        <input type="number" name="delay" required />
+    </label>
+    <label>
+        Delay step (ms)
+        <input type="number" name="step" required />
+    </label>
+    <label>
+        Amount
+        <input type="number" name="amount" required />
+    </label>
+    <button class="offers--btn" type="submit">Create promises</button>
+</form>
+    </section>
+</main>
+    <footer class="cellar">
+        <div class="container cellar__container">
+            <div class="cellar__container--contact">
+                <a href="./" lang="en" class="logo cellar--logo">
+                    <span class="logo--web">Web</span>Studio
+                </a>
+                <address class="cellar__address">
+                    <a class="cellar__link cellar__link--label location" href="https://goo.gl/maps/cegaFSzmEe4wthp77"
+                        rel="noopener noreferrer" target="_blank">
+                        Kyiv, st. Lesi Ukrainka, 26
+                    </a>
+                    <a class="cellar__link cellar__link--label post" href="mailto:svg.231@gmail.com">
+                        svg.231@gmail.com
+                    </a>
+                    <a class="cellar__link cellar__link--label" href="tel:+4591700804">
+                        +45 9170 0804
+                    </a>
+                </address>
+            </div>
+            <div class="cellar__reference--container">
+                <h3 class="cellar--title">
+                    JOIN TO US!
+                </h3>
+                <ul class="team__list--icon reference__list--icon">
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__item--icon reference__item--icon">
+                        <a class="link--icon" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon--network reference__link--icon" width="20" height="20">
+                                <use href="images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="telegram--container">
+                <h3 class="cellar--title">
+                    SUBSCRIBE TO OUR NEWSLETTERS
+                </h3>
+                <form>
+                    <div class="telegram__email">
+                        <input class="telegram__email--input" type="email" name="email" placeholder="E-mail">
+                        <button type="submit" class="telegram__email--btn">
+                            Subscribe
+                            <svg width="24" height="24" class="telegram__email--icon">
+                                <use href="images/icons.svg#icon-icon-send">
+                                </use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/mobile-menu.js"></script>
+    <script type="module" src="./js/offers.js"></script>
+
+</body>
+</html>
